@@ -20,6 +20,7 @@ function OverviewCollection({
   sortByHigherPrice,
   fetchCollectionsStartAsync,
 }) {
+  // eslint-disable-next-line no-unused-vars
   const [sortedOption, setSortedOption] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -51,6 +52,7 @@ function OverviewCollection({
     setTimeout(() => {
       fetchCollectionsStartAsync();
     }, 1000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (collection) {
