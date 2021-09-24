@@ -1,0 +1,31 @@
+.pagination__container {
+  display: flex;
+}
+
+.pagination__button {
+  min-width: 120px;
+  line-height: 44px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 0 16px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", arial, helvetica, sans-serif;
+  margin: 10px 10px;
+
+  &:hover {
+    background-color: #e6e6e6;
+  }
+}
+
+.pagination__selector {
+  min-width: 120px;
+  line-height: 44px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 0 16px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", arial, helvetica, sans-serif;
+  margin: 10px 10px;
+}

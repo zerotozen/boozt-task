@@ -1,0 +1,44 @@
+.header__logo {
+  width: 130px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px rgb(230, 230, 230);
+}
+
+.header__LeftSide {
+  width: 20%;
+  padding: 0px 20px;
+
+  font-size: 10px;
+}
+
+.header__menu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.header__middleSide {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.header__rightSide {
+  width: 20%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__icon {
+  padding: 5px;
+  cursor: pointer;
+}
